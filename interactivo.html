@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preparar el desayuno!</title>
+<!--  relacionar archivo interactivo.html con el archivo estilos.css -->
+    <link rel="stylesheet" href="estilosinteractivo.css">
+<!--  colocar una imagen en la esquina izquierda de la pestaña -->
+<link rel="icon" type="img/gatito" href="img/iconoInteractivo.png" >
+</head>
+
+
+
+
+<body>
+ <div class="container">
+   <div class="boton">
+     <a class="btn" href="/final.html">A desayunar</a>
+    </div>
+
+
+<div class="objetos">
+
+<!------------------  PAN ----------------------------------------------->
+<!-- Voy a agregar la imagen del pan desde este archivo html
+luego llamare desde el archivo js, al id de esta imagen
+le asignare una variable
+y por medio de una función cambiare su imagen
+(el evento onclick esta en el archivo js)
+RECORDAR que fue necesario colocar el id detrás de la ubicación y tamaño de la imagen-->
+<div  class="pan" ><img src="img/panLactal.png" width="160px" height="140px" id="pan"></div>
+
+
+
+<div id="botonlicua" class="botonlicua"></div>
+
+
+
+
+<!------------------  sarten ----------------------------------------------->
+<div id="sartenMesa" class="sartenMesa" onclick="sartendoraMesa()"></div>
+
+<div id="sartenCocina" class="sartenCocina" onclick="sartendoraCocina()"></div>
+<div id="botonlicua" class="botonlicua"></div>
+
+
+
+
+
+<!------------------  pava ----------------------------------------------->
+<div id="pavaMesa" class="pavaMesa" onclick="pavadoraMesa()"></div>
+
+<div id="pavaCocina" class="pavaCocina" onclick="pavadoraCocina()"></div>
+<div id="botonpava" class="botonpava"></div>
+
+<!------------------  cafe ---------------------------------------------
+<div id="licua" class="licua" onclick="licuadora()"></div>
+<div id="botonlicua" class="botonlicua"></div>-->
+
+
+
+
+<!------------------  licuadora ----------------------------------------------->
+    <div id="licua" class="licua" onclick="licuadora()"></div>
+    <div id="botonlicua" class="botonlicua"></div>
+
+<!------------------  Naranjas ---------------------------------------------
+<div id="licua" class="licua" onclick="licuadora()"></div>
+<div id="botonlicua" class="botonlicua"></div>-->
+
+
+</div>
+ </div>
+
+
+
+
+
+
+ <!--  relacionar archivo interactivo.html con el archivo javainteractivo.js -->
+<script src="javainteractivo.js"></script>
+</body>
+</html>

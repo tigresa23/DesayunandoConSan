@@ -1,0 +1,150 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: url(img/garrita.png), auto;
+}
+
+body{
+    background-color: rgb(32, 23, 23);
+    height: 610px;  /*alto de todo el body*/
+   /* display: flex;  Hace flexible el tamaño de los elementos, para que se acomoden todas a un 
+    mismo nivel osea que dejaría todas las cartas a una misma altura, aunque les achica el tamaño*/
+    /* alinea a sus hijos sobre el eje vertical, en este caso los hijos son los div*/
+    /*justify-content: center;  justifica a los hijos en el eje horizontal, y por este
+    motivo voy a tener que colocar el mismo width que eliga, para todas las class padre*/
+    /* align-items: center; centra a los hijos en el eje vertical*/
+    background-image: url(img/fondoInteractivo.jpg) ; /* lo mejor es llamar desde
+    aqui a la imagen para utilizarla de fondo*/
+    background-repeat: no-repeat;
+    background-size: cover;   
+    cursor: url(img/garrita.png), auto;
+}
+
+.container {
+/* margin-top: 20%; */
+    position: absolute;
+    height: 610px; /* que ocupe toda el alto de la pantalla*/
+ /* width: 100%;  el problema de poner ancho al 100% es que la imagen
+ se acomoda al ancho y me corta parte de su altura*/
+      
+   /*  esto hace que la imagen siempre se 
+    reduzca proporcionalmente izq y der mientras cambia el tamaño de la pantalla*/
+    /* background-attachment: fixed;  fija la imagen cubra toda la pantalla*/
+}
+
+/* ---------  Pan ---------------------------------------------------*/
+/*----  -----*/
+.pan {
+    margin-top: -215px; /*  distancia con el top de arriva */
+    margin-left: 3%;/*  distancia con el top izquierdo */
+    width: 180px; /*ancho del objeto */
+    height: 300px; /* altura del objeto */
+    position: absolute;
+   /* background-color: red; */
+   background-repeat: no-repeat;
+    
+    background-size: contain;
+}
+
+
+
+/* ---------  Sarten ---------------------------------------------------*/
+/*---- Sarten mesa  -----*/
+.sartenMesa {
+    margin-top: -250px; /*  distancia con el top de arriva */
+    margin-left: 70%;/*  distancia con el top izquierdo */
+    width: 180px; /*ancho del objeto */
+    height: 300px; /* altura del objeto */
+    position: absolute;
+   /* background-color: red; */
+   background-repeat: no-repeat;
+    background-image: url(img/sartenConHuevos1.png);
+    background-size: contain;
+}
+
+
+/*---- Sarten cocina  -----*/
+.sartenCocina {
+    margin-top: -283px; /*  distancia con el top de arriva */
+    margin-left: 52%;/*  distancia con el top izquierdo */
+    width: 180px; /*ancho del objeto */
+    height: 300px; /* altura del objeto */
+    position: absolute;
+   /* background-color: red; */
+   background-repeat: no-repeat;
+    background-image: url(img/sartenConHuevos1.png);
+    background-size: contain;
+}
+
+
+
+/* ---------  Pava  ---------------------------------------------------*/
+/*---- Pava mesa  -----*/
+.pavaMesa {
+    margin-top: -350px; /*  distancia con el top de arriva */
+    margin-left: 25%;/*  distancia con el top izquierdo */
+    width: 200px; /*ancho del objeto */
+    height: 300px; /* altura del objeto */
+    position: absolute;
+   /* background-color: red; */
+   background-repeat: no-repeat;
+    background-image: url(img/pava2.png);
+    background-size: contain;
+}
+
+.sartenCocina.active {
+    background-image: url(img/sartenConHuevosGIF.gif);
+}
+
+
+
+/*---- Pava cocina  -----*/
+.pavaCocina {
+    margin-top: -338px; /*  distancia con el top de arriva */
+    margin-left: 42%;/*  distancia con el top izquierdo */
+    width: 200px; /*ancho del objeto */
+    height: 300px; /* altura del objeto */
+    position: absolute;
+   /* background-color: red; */
+   background-repeat: no-repeat;
+    background-image: url(img/pava2.png);
+    background-size: contain;
+}
+
+.pavaCocina.active {
+    background-image: url(img/pavaGIF.gif);
+}
+
+
+
+/* ---------  Licuadora  ---------------------------------------------------*/
+.licua {
+    margin-top: -370px; /*  distancia con el top de arriva */
+    margin-left: 12%;/*  distancia con el top izquierdo */
+    width: 100px; /*ancho del objeto */
+    height: 200px; /* altura del objeto */
+    position: absolute;
+   /* background-color: red; */
+    background-image: url(img/licuadora4.png);
+    background-size: contain;
+}
+
+.licua.active {
+    background-image: url(img/licuadoraGIF.gif);
+}
+
+
+/* --------*/
+/* --------*/
+/* --------- BOTON ENLACE A final.html  ---------------------------------------------------*/
+  .boton { 
+    margin-top: 550px;
+    margin-left: 900px;/*
+    margin-right: 10%; 
+    margin-bottom: 10%; */
+    background-color: rgb(119, 155, 36);
+    
+} 
