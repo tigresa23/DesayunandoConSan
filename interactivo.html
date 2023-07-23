@@ -7,78 +7,117 @@
 <!--  relacionar archivo interactivo.html con el archivo estilos.css -->
     <link rel="stylesheet" href="estilosinteractivo.css">
 <!--  colocar una imagen en la esquina izquierda de la pestaña -->
-<link rel="icon" type="img/gatito" href="img/iconoInteractivo.png" >
+<link rel="icon" type="img/gatito" href="img/iconoInt.png" >
 </head>
 
 
 
-
 <body>
- <div class="container">
-   <div class="boton">
-     <a class="btn" href="/DesayunandoConSan/final.html">A desayunar</a>
-    </div>
+ <div class="container"> <!-- este div se cierra al final de todo el body -->
+  <p>
+      <b><i></br><pre>  Sandra  Lopez  2023</pre> </i></b>
+ </p>
+<div class="boton">
+     <a  href="/final.html" class="btn-interactivo" id="btn-interactivo"></a>
+
+</div>
+
+<div class="objetos"><!-- este div se cierra al final de todo el body y antes del div container -->
 
 
-<div class="objetos">
 
-<!------------------  PAN ----------------------------------------------->
+<!------------------  PAN --------------------------------------------------------------------------------------->
 <!-- Voy a agregar la imagen del pan desde este archivo html
-luego llamare desde el archivo js, al id de esta imagen
+luego llamaré al id de esta imagen desde el archivo js, 
 le asignare una variable
-y por medio de una función cambiare su imagen
+y por medio de una función cambiaré la propiedad src de esta imagen
 (el evento onclick esta en el archivo js)
 RECORDAR que fue necesario colocar el id detrás de la ubicación y tamaño de la imagen-->
 <div  class="pan" ><img src="img/panLactal.png" width="160px" height="140px" id="pan"></div>
 
+<!------------------  HUEVOS --------------------------------------------------------------------------------------->
+<!--Al hacer clic sobre los huevos, el archivo de la sarten cambiará 
+la propiedad src de esta imagen de .png (sarten vacía) a un .gif (huevo rompiéndose sobre la sarten) -->
+
+<!-- primero debo crear un div invisible de id y class "tomar-huevo"que se ubique sobre 
+la imgen de los huevos 
+. Esta class será llamada desde css
+. Este id será llamado desde js usando getElmentById para guardarlo en una variable
+. La variable guardada en una función que inicie y detenga el cambio de archivos img de la sarten 
+. Luego de usar cuatro veces esta función ya no tendrá efecto alguno mientras dure la partida. --->
+<div class="tomar-huevo"><img src="img/huevos.png" id="tomar-huevo"></div>
 
 
-<div id="botonlicua" class="botonlicua"></div>
+<!------------------  SARTEN ----------------------------------------------------------------------------------------------------->
+<!-- Al hacer clic sobre los huevos, un huevo se romperá sobre la sartén vacía y dara lugar a cocinar el huevo
+ y colocarlo cocido sobre un plato.-->
+<div  class="sartenCocina" ><img src="img/sartenConHuevos1.png" width="180" height="140"  id="sartenCocina"></div>
 
 
+<!------------------  PAVA ----------------------------------------------------------------------------------------------------->
+<!-- Inicia con una pava fría
+Al hacer clic sobre el boton-pava de la cocina, el agua de la pava comienza a hervir y de la pava sale vapor 
+Si nuevamente se presiona el boton-pava, la pava se apaga y las tazas se llenan de café.-->
+<div class="pavaCocina" ><img src = "img/tetera11.png" width="110" height="180" id="pavaCocina"></div>
 
 
-<!------------------  sarten ----------------------------------------------->
-<div id="sartenMesa" class="sartenMesa" onclick="sartendoraMesa()"></div>
+<!------------------  CAFE ----------------------------------------------------------------------------------------------------->
+<!-- Inicia con una tazas vacías, después de apagar la pava las tazas se llenan de café. 
+la function cocinarPava()  en el archivo js, cambia la propiedad src del id "tazasVacías"
+desde una imagen de tazas vacías a una imagen de tazas llenas -->
+<div class="tazasVacias" ><img src = "img/tazasVacias.png" width="100" height="100"id="tazasVacias"></div>
 
-<div id="sartenCocina" class="sartenCocina" onclick="sartendoraCocina()"></div>
-<div id="botonlicua" class="botonlicua"></div>
-
-
-
-
-
-<!------------------  pava ----------------------------------------------->
-<div id="pavaMesa" class="pavaMesa" onclick="pavadoraMesa()"></div>
-
-<div id="pavaCocina" class="pavaCocina" onclick="pavadoraCocina()"></div>
-<div id="botonpava" class="botonpava"></div>
-
-<!------------------  cafe ---------------------------------------------
+<!------------------  LICUADORA ----------------------------------------------------------------------------------------------------->
 <div id="licua" class="licua" onclick="licuadora()"></div>
-<div id="botonlicua" class="botonlicua"></div>-->
+    
+<!------------------  NARANJAS ----------------------------------------------------------------------------------------------------->
+<!-- Esto es muy parecido a lo que suceden con el cafe.
+Inicia con una vasos vacíos, después de apagar la licuadora los vasos se llenan de jugo. 
+la function licuadora() en el archivo js, cambia la propiedad src del id "naranjas"
+desde una imagen de vasos vacíos a una imagen de vasos llenos -->
+<div  class="naranjas"><img src = "img/vasosVacios.png" width="100" height="90" id="naranjas"></div>
+ 
+<!------------------  BOTONES DE LA COCINA ----------------------------------------------------------------------------------------------------->
+<!------------------  boton pava  ---------->
+<div class="boton-pava" onclick="cocinarPava()"> <!-- el evento onclick esta dentro de la etiqueta, 
+y los botones deben estar dentro del div que llame desde el css, y esto es para que visualmente los botones queden
+ubicados deacuerdo al css de la class -->
 
-
-
-
-<!------------------  licuadora ----------------------------------------------->
-    <div id="licua" class="licua" onclick="licuadora()"></div>
-    <div id="botonlicua" class="botonlicua"></div>
-
-<!------------------  Naranjas ---------------------------------------------
-<div id="licua" class="licua" onclick="licuadora()"></div>
-<div id="botonlicua" class="botonlicua"></div>-->
-
-
+<img src="img/off.png" alt="" id="boton-pava">
+<!-- <button class="btn-pava" style="color: rgb(206, 57, 11);"> boton</button> -->
 </div>
- </div>
+
+<!------------------  boton sarten  ---------->
+<div class="boton-sarten" onclick="cocinarSarten()"> <!-- el evento onclick esta dentro de la etiqueta, 
+  y los botones deben estar dentro del div que llame desde el css -->
+<img src="img/off.png" alt="" id="boton-sarten">
+<!-- <button class="btn-sarten" style="color: rgb(35, 172, 8);"> boton</button> -->
+</div>
+
+<!------------------  PLATO ----------------------------------------------------------------------------------------------------->
+<!------------------  plato vacio y plato con huevos  ---------->
+<div class="plato"> <img src="img/plato0.png" id="plato" > </div>
 
 
+</div> <!-- cierre del div objetos --->
+ </div> <!-- cierre del div container --->
 
+<!------------------  AUDIOS ----------------------------------------------------------------------------------------------------->
 
-
+<!-- la propiedad loop hace que el audio se reproduzca constantemente.
+Por eso mismo no lo agrego en el audio de los botones, ni en romper huevos,
+ya que solo necesito que se reproduzcan una sola vez por click -->
+<audio id="audioFrituras"   src="audio/audioFrituras.mp3" type="audio/mpeg" loop></audio>
+<audio id="audioPava"  src="audio/audioPava.mp3" type="audio/mpeg" loop></audio>
+<audio id="audioLicuadora"  src="audio/audioLicuadora.mp3" type="audio/mpeg" loop></audio>
+<audio id="botonCocina"   src="audio/audioBotonCocina.mp3" type="audio/mpeg"></audio>
+<audio id="botonLicuadora"  src="audio/audioBotonLicuadora.mp3" type="audio/mpeg"></audio>
+<audio id="audioRodaja"  src="audio/audioRodaja.mp3" type="audio/mpeg"></audio>
+<audio id="audioRomperHuevos"  src="audio/audioRomperHuevo.mp3" type="audio/mpeg"></audio>
 
  <!--  relacionar archivo interactivo.html con el archivo javainteractivo.js -->
 <script src="javainteractivo.js"></script>
+
+
 </body>
 </html>

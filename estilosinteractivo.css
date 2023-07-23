@@ -38,113 +38,185 @@ body{
 /* ---------  Pan ---------------------------------------------------*/
 /*----  -----*/
 .pan {
-    margin-top: -215px; /*  distancia con el top de arriva */
-    margin-left: 3%;/*  distancia con el top izquierdo */
-    width: 180px; /*ancho del objeto */
-    height: 300px; /* altura del objeto */
+    margin-top: 335px; /*  distancia con el top de arriva */
+    margin-left: 10px;/*  distancia con el top izquierdo */
+    width: 130px; /*ancho del objeto */
+    height: 100px; /* altura del objeto */
     position: absolute;
    /* background-color: red; */
    background-repeat: no-repeat;
-    
     background-size: contain;
 }
 
+/* ---------  Huevos ---------------------------------------------------*/
+/*----  -----*/
+
+.tomar-huevo{
+    margin-top: 300px; /*  distancia con el top de arriva */
+    margin-left: 920px;/*  distancia con el top izquierdo */
+    width: 140px; /*ancho del objeto */
+    height: 110px; /* altura del objeto */
+    position: absolute;
+   /* background-color: red; */
+   background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
 /* ---------  Sarten ---------------------------------------------------*/
-/*---- Sarten mesa  -----*/
-.sartenMesa {
-    margin-top: -250px; /*  distancia con el top de arriva */
-    margin-left: 70%;/*  distancia con el top izquierdo */
-    width: 180px; /*ancho del objeto */
-    height: 300px; /* altura del objeto */
-    position: absolute;
-   /* background-color: red; */
-   background-repeat: no-repeat;
-    background-image: url(img/sartenConHuevos1.png);
-    background-size: contain;
-}
-
-
 /*---- Sarten cocina  -----*/
 .sartenCocina {
-    margin-top: -283px; /*  distancia con el top de arriva */
-    margin-left: 52%;/*  distancia con el top izquierdo */
+    margin-top: 249px; /*  distancia con el top de arriva */
+    margin-left: 520px;/*  distancia con el top izquierdo */
     width: 180px; /*ancho del objeto */
-    height: 300px; /* altura del objeto */
+    height: 140px; /* altura del objeto */
     position: absolute;
    /* background-color: red; */
    background-repeat: no-repeat;
-    background-image: url(img/sartenConHuevos1.png);
+   /* background-image: url(img/sartenConHuevos1.png);*/
     background-size: contain;
 }
-
-
 
 /* ---------  Pava  ---------------------------------------------------*/
-/*---- Pava mesa  -----*/
-.pavaMesa {
-    margin-top: -350px; /*  distancia con el top de arriva */
-    margin-left: 25%;/*  distancia con el top izquierdo */
-    width: 200px; /*ancho del objeto */
-    height: 300px; /* altura del objeto */
-    position: absolute;
-   /* background-color: red; */
-   background-repeat: no-repeat;
-    background-image: url(img/pava2.png);
-    background-size: contain;
-}
-
-.sartenCocina.active {
-    background-image: url(img/sartenConHuevosGIF.gif);
-}
-
-
-
 /*---- Pava cocina  -----*/
 .pavaCocina {
-    margin-top: -338px; /*  distancia con el top de arriva */
-    margin-left: 42%;/*  distancia con el top izquierdo */
-    width: 200px; /*ancho del objeto */
-    height: 300px; /* altura del objeto */
-    position: absolute;
-   /* background-color: red; */
+    margin-top: 202px; /*  distancia con el top de arriva */
+    margin-left: 422px;/*  distancia con el top izquierdo */
+    width: 120px; /*ancho del objeto */
+    height: 184px; /* altura del objeto */
+    position: absolute; 
    background-repeat: no-repeat;
-    background-image: url(img/pava2.png);
+  /*  background-image: url(img/pava6.png);*/
     background-size: contain;
 }
-
-.pavaCocina.active {
-    background-image: url(img/pavaGIF.gif);
-}
-
-
 
 /* ---------  Licuadora  ---------------------------------------------------*/
 .licua {
-    margin-top: -370px; /*  distancia con el top de arriva */
-    margin-left: 12%;/*  distancia con el top izquierdo */
-    width: 100px; /*ancho del objeto */
+    margin-top: 175px; /*  distancia con el top de arriva */
+    margin-left: 55px;/*  distancia con el top izquierdo */
+    width: 110px; /*ancho del objeto */
     height: 200px; /* altura del objeto */
     position: absolute;
-   /* background-color: red; */
-    background-image: url(img/licuadora4.png);
-    background-size: contain;
+    background-image: url(img/licuadoraNueva0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .licua.active {
-    background-image: url(img/licuadoraGIF.gif);
+    margin-top: 175px; /*  distancia con el top de arriva */
+    margin-left: 55px;/*  distancia con el top izquierdo */
+    width: 110px; /*ancho del objeto */
+    height: 200px; /* altura del objeto */
+    position: absolute;
+    background-image: url(img/licuadoraNueva1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
-/* --------*/
+/* -----  naranjas ---*/
+.naranjas {
+    margin-top: 335px; /*  distancia con el top de arriva */
+    margin-left: 170px;/*  distancia con el top izquierdo */
+    width: 100px; /*ancho del objeto */
+    height: 100px; /* altura del objeto */
+    position: absolute;
+    background-size: contain;
+}
+
+/* -----  cafe ---*/
+.tazasVacias {
+    margin-top: 305px; /*  distancia con el top de arriva */
+    margin-left: 270px;/*  distancia con el top izquierdo */
+    width: 100px; /*ancho del objeto */
+    height: 100px; /* altura del objeto */
+    position: absolute;
+    background-size: contain;
+}
+
+/*------------------  botones de la cocina ----------------------------------------------*/
+/*------------------  boton pava  ---------*/
+.boton-pava {
+    margin-top: 405px; /*  distancia con el top de arriva */
+    margin-left: 457px;/*  distancia con el top izquierdo */
+    width: 35px; /*ancho del objeto */
+    height: 35px; /* altura del objeto */
+    position: absolute;
+    background-size: contain;
+}
+
+
+
+/*------------------  boton sarten  ---------*/
+.boton-sarten {
+    margin-top: 405px; /*  distancia con el top de arriva */
+    margin-left: 585px;/*  distancia con el top izquierdo */
+    width: 35px; /*ancho del objeto */
+    height: 35px; /* altura del objeto */
+    position: absolute;
+    background-size: contain;
+}
+
+/*------------------  plato  ---------*/
+.plato {
+    margin-top: 357px; /*  distancia con el top de arriva */
+    margin-left: 780px;/*  distancia con el top izquierdo */
+    width: 35px; /*ancho del objeto */
+    height: 35px; /* altura del objeto */
+    position: absolute;
+    background-size: contain; 
+}
+
+
+
 /* --------*/
 /* --------- BOTON ENLACE A final.html  ---------------------------------------------------*/
-  .boton { 
-    margin-top: 550px;
-    margin-left: 900px;/*
-    margin-right: 10%; 
-    margin-bottom: 10%; */
-    background-color: rgb(119, 155, 36);
-    
-} 
+ 
+/* --------*/
+/* --------- BOTON ENLACE A final.html  ---------------------------------------------------*/
+ 
+
+
+.btn-interactivo {
+    transition: all 0.6s ease;
+    z-index: 1;
+}
+
+.btn-interactivo::after{
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 36px;
+    left: 800px;
+    top: 560px;
+    background-color: rgb(191, 44, 157);
+    transform: skew(-20deg, 0deg);
+    transition: all 0.4s ease;
+}
+
+
+.btn-interactivo::before{
+    content: "A DESAYUNAR > > >";
+    font-family: cursive;
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    left: 810px;
+    top: 560px;
+    transform: skew(-20deg, 0deg);
+    border: 3px solid #c17491;
+    background-color: #c17491;
+    transition: all 0.4s ease;
+     
+}
+
+.btn-interactivo:hover::after{
+    background-color: aqua; 
+    transform: skew(-20deg, 0deg) translateX(175px);
+}
+
+.btn-interactivo:hover:before{
+    background-color: aqua; 
+    border: 3px solid  aqua;
+    transform: skew(-20deg, 0deg) scale(1.1);
+}
