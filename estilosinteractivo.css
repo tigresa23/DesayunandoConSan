@@ -38,7 +38,7 @@ body{
 /* ---------  Pan ---------------------------------------------------*/
 /*----  -----*/
 .pan {
-    margin-top: 320px; /*  distancia con el top de arriva */
+    margin-top: 332px; /*  distancia con el top de arriva */
     margin-left: 12px;/*  distancia con el top izquierdo */
     width: 130px; /*ancho del objeto */
     height: 100px; /* altura del objeto */
@@ -52,7 +52,7 @@ body{
 /*----  -----*/
 
 .tomar-huevo{
-    margin-top: 305px; /*  distancia con el top de arriva */
+    margin-top: 307px; /*  distancia con el top de arriva */
     margin-left: 922px;/*  distancia con el top izquierdo */
     width: 140px; /*ancho del objeto */
     height: 110px; /* altura del objeto */
@@ -66,7 +66,7 @@ body{
 /* ---------  Sarten ---------------------------------------------------*/
 /*---- Sarten cocina  -----*/
 .sartenCocina {
-    margin-top: 254px; /*  distancia con el top de arriva */
+    margin-top: 256px; /*  distancia con el top de arriva */
     margin-left: 522px;/*  distancia con el top izquierdo */
     width: 180px; /*ancho del objeto */
     height: 140px; /* altura del objeto */
@@ -80,7 +80,7 @@ body{
 /* ---------  Pava  ---------------------------------------------------*/
 /*---- Pava cocina  -----*/
 .pavaCocina {
-    margin-top: 207px; /*  distancia con el top de arriva */
+    margin-top: 209px; /*  distancia con el top de arriva */
     margin-left: 424px;/*  distancia con el top izquierdo */
     width: 120px; /*ancho del objeto */
     height: 184px; /* altura del objeto */
@@ -92,7 +92,7 @@ body{
 
 /* ---------  Licuadora  ---------------------------------------------------*/
 .licua {
-    margin-top: 180px; /*  distancia con el top de arriva */
+    margin-top: 182px; /*  distancia con el top de arriva */
     margin-left: 57px;/*  distancia con el top izquierdo */
     width: 110px; /*ancho del objeto */
     height: 200px; /* altura del objeto */
@@ -116,7 +116,7 @@ body{
 
 /* -----  naranjas ---*/
 .naranjas {
-    margin-top: 340px; /*  distancia con el top de arriva */
+    margin-top: 342px; /*  distancia con el top de arriva */
     margin-left: 172px;/*  distancia con el top izquierdo */
     width: 100px; /*ancho del objeto */
     height: 100px; /* altura del objeto */
@@ -126,7 +126,7 @@ body{
 
 /* -----  cafe ---*/
 .tazasVacias {
-    margin-top: 310px; /*  distancia con el top de arriva */
+    margin-top: 312px; /*  distancia con el top de arriva */
     margin-left: 272px;/*  distancia con el top izquierdo */
     width: 100px; /*ancho del objeto */
     height: 100px; /* altura del objeto */
@@ -137,7 +137,7 @@ body{
 /*------------------  botones de la cocina ----------------------------------------------*/
 /*------------------  boton pava  ---------*/
 .boton-pava {
-    margin-top: 410px; /*  distancia con el top de arriva */
+    margin-top: 412px; /*  distancia con el top de arriva */
     margin-left: 449px;/*  distancia con el top izquierdo */
     width: 35px; /*ancho del objeto */
     height: 35px; /* altura del objeto */
@@ -149,7 +149,7 @@ body{
 
 /*------------------  boton sarten  ---------*/
 .boton-sarten {
-    margin-top: 410px; /*  distancia con el top de arriva */
+    margin-top: 412px; /*  distancia con el top de arriva */
     margin-left: 587px;/*  distancia con el top izquierdo */
     width: 35px; /*ancho del objeto */
     height: 35px; /* altura del objeto */
@@ -159,7 +159,7 @@ body{
 
 /*------------------  plato  ---------*/
 .plato {
-    margin-top: 362px; /*  distancia con el top de arriva */
+    margin-top: 364px; /*  distancia con el top de arriva */
     margin-left: 782px;/*  distancia con el top izquierdo */
     width: 35px; /*ancho del objeto */
     height: 35px; /* altura del objeto */
