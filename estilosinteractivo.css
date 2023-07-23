@@ -38,8 +38,8 @@ body{
 /* ---------  Pan ---------------------------------------------------*/
 /*----  -----*/
 .pan {
-    margin-top: 335px; /*  distancia con el top de arriva */
-    margin-left: 10px;/*  distancia con el top izquierdo */
+    margin-top: 320px; /*  distancia con el top de arriva */
+    margin-left: 12px;/*  distancia con el top izquierdo */
     width: 130px; /*ancho del objeto */
     height: 100px; /* altura del objeto */
     position: absolute;
@@ -52,8 +52,8 @@ body{
 /*----  -----*/
 
 .tomar-huevo{
-    margin-top: 300px; /*  distancia con el top de arriva */
-    margin-left: 920px;/*  distancia con el top izquierdo */
+    margin-top: 305px; /*  distancia con el top de arriva */
+    margin-left: 922px;/*  distancia con el top izquierdo */
     width: 140px; /*ancho del objeto */
     height: 110px; /* altura del objeto */
     position: absolute;
@@ -66,8 +66,8 @@ body{
 /* ---------  Sarten ---------------------------------------------------*/
 /*---- Sarten cocina  -----*/
 .sartenCocina {
-    margin-top: 249px; /*  distancia con el top de arriva */
-    margin-left: 520px;/*  distancia con el top izquierdo */
+    margin-top: 254px; /*  distancia con el top de arriva */
+    margin-left: 522px;/*  distancia con el top izquierdo */
     width: 180px; /*ancho del objeto */
     height: 140px; /* altura del objeto */
     position: absolute;
@@ -80,8 +80,8 @@ body{
 /* ---------  Pava  ---------------------------------------------------*/
 /*---- Pava cocina  -----*/
 .pavaCocina {
-    margin-top: 202px; /*  distancia con el top de arriva */
-    margin-left: 422px;/*  distancia con el top izquierdo */
+    margin-top: 207px; /*  distancia con el top de arriva */
+    margin-left: 424px;/*  distancia con el top izquierdo */
     width: 120px; /*ancho del objeto */
     height: 184px; /* altura del objeto */
     position: absolute; 
@@ -92,8 +92,8 @@ body{
 
 /* ---------  Licuadora  ---------------------------------------------------*/
 .licua {
-    margin-top: 175px; /*  distancia con el top de arriva */
-    margin-left: 55px;/*  distancia con el top izquierdo */
+    margin-top: 180px; /*  distancia con el top de arriva */
+    margin-left: 57px;/*  distancia con el top izquierdo */
     width: 110px; /*ancho del objeto */
     height: 200px; /* altura del objeto */
     position: absolute;
@@ -116,8 +116,8 @@ body{
 
 /* -----  naranjas ---*/
 .naranjas {
-    margin-top: 335px; /*  distancia con el top de arriva */
-    margin-left: 170px;/*  distancia con el top izquierdo */
+    margin-top: 340px; /*  distancia con el top de arriva */
+    margin-left: 172px;/*  distancia con el top izquierdo */
     width: 100px; /*ancho del objeto */
     height: 100px; /* altura del objeto */
     position: absolute;
@@ -126,8 +126,8 @@ body{
 
 /* -----  cafe ---*/
 .tazasVacias {
-    margin-top: 305px; /*  distancia con el top de arriva */
-    margin-left: 270px;/*  distancia con el top izquierdo */
+    margin-top: 310px; /*  distancia con el top de arriva */
+    margin-left: 272px;/*  distancia con el top izquierdo */
     width: 100px; /*ancho del objeto */
     height: 100px; /* altura del objeto */
     position: absolute;
@@ -137,8 +137,8 @@ body{
 /*------------------  botones de la cocina ----------------------------------------------*/
 /*------------------  boton pava  ---------*/
 .boton-pava {
-    margin-top: 405px; /*  distancia con el top de arriva */
-    margin-left: 457px;/*  distancia con el top izquierdo */
+    margin-top: 410px; /*  distancia con el top de arriva */
+    margin-left: 449px;/*  distancia con el top izquierdo */
     width: 35px; /*ancho del objeto */
     height: 35px; /* altura del objeto */
     position: absolute;
@@ -149,8 +149,8 @@ body{
 
 /*------------------  boton sarten  ---------*/
 .boton-sarten {
-    margin-top: 405px; /*  distancia con el top de arriva */
-    margin-left: 585px;/*  distancia con el top izquierdo */
+    margin-top: 410px; /*  distancia con el top de arriva */
+    margin-left: 587px;/*  distancia con el top izquierdo */
     width: 35px; /*ancho del objeto */
     height: 35px; /* altura del objeto */
     position: absolute;
@@ -159,8 +159,8 @@ body{
 
 /*------------------  plato  ---------*/
 .plato {
-    margin-top: 357px; /*  distancia con el top de arriva */
-    margin-left: 780px;/*  distancia con el top izquierdo */
+    margin-top: 362px; /*  distancia con el top de arriva */
+    margin-left: 782px;/*  distancia con el top izquierdo */
     width: 35px; /*ancho del objeto */
     height: 35px; /* altura del objeto */
     position: absolute;
